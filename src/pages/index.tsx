@@ -84,51 +84,30 @@ export default function Home() {
           crossOrigin=""
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Raleway:wght@300;400;500&display=swap"
           rel="stylesheet"
         />
       </Head>
-      <header className={styles.Header}>
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Something</a>
-            </li>
-            <li>
-              <a href="#">Something</a>
-            </li>
-            <li>
-              <a href="#">Something</a>
-            </li>
-            <li>
-              <a href="#">Something</a>
-            </li>
-            <li>
-              <a href="#">Something</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
 
       <main>
         <section className={styles.Hero}>
-          <div className={styles.HeroContent}>
-            <div className={styles.HeroText}>
-              <ErinAndBenoit />
-              <Image
-                className={styles.Floral1Animation}
-                src="/floral_1_resized.gif"
-                alt="Animated flowers appearing as if drawn"
-                width={500}
-                height={716}
-              />
-              <p>
-                Please join us out in the boonies <br />
-                to celebrate our love
-              </p>
-            </div>
-          </div>
+          <ErinAndBenoitLogo />
+          <p className={styles.Date}>06/03/2023</p>
+          <p className={styles.JoinUs}>
+            Please join us out in the boonies <br />
+            to celebrate our love
+          </p>
+          <Image
+            className={styles.Floral1Animation}
+            src="/floral_1_resized.gif"
+            alt="Animated flowers appearing as if drawn"
+            width={500}
+            height={716}
+          />
         </section>
+        <div className={styles.RVSPBar}>
+          <a href="#">RVSP now</a>
+        </div>
         <section className={styles.NowAndThen}>
           <div>
             <Image
@@ -271,7 +250,7 @@ export default function Home() {
   );
 }
 
-export const ErinAndBenoit = () => (
+export const ErinAndBenoitLogo = () => (
   <svg
     id="Layer_1"
     data-name="Layer 1"
@@ -281,7 +260,7 @@ export const ErinAndBenoit = () => (
     <defs>
       <style>
         {`.cls-1 {
-        fill: #bcb0be;
+        fill: #EBD7D5;
       `}
       </style>
     </defs>
