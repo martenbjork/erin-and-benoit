@@ -234,4 +234,6 @@
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
+  mix-blend-mode: multiply;
+  filter: contrast(110%);
 }
