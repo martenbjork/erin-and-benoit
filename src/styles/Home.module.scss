@@ -1,9 +1,60 @@
+.RVSPBar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.66rem 0;
+  background: #ebd7d5;
+  text-align: center;
+  z-index: 1;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(1rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  animation: fade-in 1s 1s 1 both;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    top: -1px;
+    height: 1px;
+    background: url(/rvsp-bar-edge.svg) repeat-x center top;
+    z-index: 1;
+  }
+
+  a {
+    display: inline-block;
+    padding: 0.66rem 1rem;
+    border: 2px solid;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+  }
+}
+
 .Hero {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 5vh 0;
+  padding: 18vh var(--side-padding) 12vh;
+
+  @media screen and (max-width: 1000px) {
+    padding: 14vh var(--side-padding) 8vh;
+  }
 
   .HeroContent {
     mix-blend-mode: multiply;
@@ -11,24 +62,23 @@
 
   svg {
     width: 55vw;
+    max-width: 500px;
+    height: auto;
   }
 
   .Date {
-    margin-top: -2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 0.15rem;
     text-transform: uppercase;
     font-family: Lexend;
-  }
-
-  .JoinUs {
-    font-weight: 400;
   }
 
   p {
     font-size: 1em;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 500;
-    letter-spacing: 0.05em;
+    font-weight: 400;
+    letter-spacing: 0.1em;
   }
 
   .Floral1Animation {
@@ -38,33 +88,97 @@
   }
 }
 
-.RVSPBar {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 0.5rem 0;
-  background: #ebd7d5;
-  text-align: center;
-  z-index: 1;
-
-  a {
-    display: inline-block;
-    padding: 0.33rem 0.75rem;
-    border: 2px solid;
-    border-radius: 2px;
-  }
-}
-
 .NowAndThen {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 0 var(--side-padding);
+
   div {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
+  img {
+    width: 50%;
+    height: auto;
+  }
+
+  img:first-of-type {
+    border-radius: 2px 0 0 2px;
+  }
+
+  img:last-of-type {
+    border-radius: 2px;
+  }
 }
 
-.Collage img {
-  max-width: 100%;
-  height: auto;
+.MainInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 40rem;
+  margin: 5rem auto 2rem;
+  gap: 5rem;
+  padding: 0 var(--side-padding);
+
+  .Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+
+    svg {
+      margin-bottom: 0.25rem;
+    }
+  }
+}
+
+.AccomodationDetails {
+  display: flex;
+  max-width: 62rem;
+  margin: 0 auto;
+  gap: 2rem;
+  padding: 0 var(--side-padding);
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+  }
+
+  > div {
+    flex: 1;
+  }
+}
+
+.HorizontalPhotos {
+  margin: 5rem 0;
+  height: 40vw;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.FAQ {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 var(--side-padding);
+
+  svg {
+    margin-bottom: 2rem;
+  }
+
+  p + h3 {
+    margin-top: 2rem;
+  }
+}
+
+.Collage {
+  margin-top: 5rem;
+  padding: 0 var(--side-padding);
+  position: relative;
+
+  img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+  }
 }
