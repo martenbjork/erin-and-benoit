@@ -92,6 +92,7 @@
   max-width: 50rem;
   margin: 0 auto;
   padding: 0 var(--side-padding);
+  position: relative;
 
   div {
     display: flex;
@@ -116,7 +117,8 @@
     position: absolute;
     width: 100px;
     height: auto;
-    right: 5vw;
+    right: -10vw;
+    display: none;
   }
 }
 
