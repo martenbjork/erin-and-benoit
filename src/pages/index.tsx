@@ -95,7 +95,7 @@ export default function Home() {
             Please join us out in the boonies <br />
             to celebrate our love
           </p>
-          <Image
+          <img
             className={styles.Floral1Animation}
             src="/floral_1_resized.gif"
             alt="Animated flowers appearing as if drawn"
@@ -279,7 +279,7 @@ export default function Home() {
         </div>
 
         <div className={styles.FooterAnimation}>
-          <Image
+          <img
             src="/EB_Animation.gif"
             alt="EB monogram"
             width={1668 / 5}
