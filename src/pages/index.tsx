@@ -152,17 +152,19 @@ export default function Home() {
           </div>
 
           <div className={styles.Item}>
-            <TitleAccomodations />
+            <TitleAccommodations />
             <p className="large">
-              915 Chem. du Mont-des-Cascades
+              <b>915 Chem. du Mont-des-Cascades</b>
               <br />
               Cantley, QC
             </p>
             <p>
               To book using group discount, call 8195252255 or Book Online.
               Group discount code “ERC”. Group discount extended 3 days
-              post/prior June 3. Please book accommodations asap to ensure your
-              stay.
+              post/prior June 3.
+              <br />
+              <b>Please book accommodations asap to ensure your
+                stay.</b>
             </p>
           </div>
         </section>
@@ -180,6 +182,8 @@ export default function Home() {
             <h3>Driving</h3>
             <p>
               The venue is out in the boonies, down winding dirt roads. 
+              <br />
+              <b>We care about you. Please do not drink & drive.</b>
             </p>
             <a href="https://www.google.com/maps/place/Golf+Mont+Cascades/@45.6078262,-75.8846283,17z/data=!3m1!4b1!4m5!3m4!1s0x4cd1e09dc0727257:0x978b5d9b3efb10ab!8m2!3d45.6078262!4d-75.8846283">Directions</a>
             
@@ -188,9 +192,7 @@ export default function Home() {
           <div>
             <h3>Parking</h3>
             <p>
-              There is ample parking at the venue, however we will be providing
-              a shuttle from the Holiday Inn Gatineau, for those wishing to
-              partake in the bar.
+              There is ample parking at the venue. When you arrive you will see the clubhouse and a barn. Parking is behind the barn!
             </p>
           </div>
         </section>
@@ -206,7 +208,9 @@ export default function Home() {
             We want you to be comfortable. The venue is outdoors, but if the
             weather is bad there are rain curtains and heaters. Dress
             accordingly! We’ve put together a lookbook on pinterest if you want
-            some ideas. We suggest anything light & bright to kick off summer!
+            some ideas. 
+            <br />
+            We suggest anything light & bright to kick off summer!
             The weather for June 3 in 2022 was 22 during the day and 15 at
             night.
           </p>
