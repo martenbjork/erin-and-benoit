@@ -140,8 +140,7 @@ export default function Home() {
           <div className={styles.Item}>
             <TitleWhere />
             <p className="large">
-              915 Chem. du Mont-des-Cascades
-              <br />
+              915 Chem. du Mont-des-Cascades <br />
               Cantley, QC
             </p>
             <p>
@@ -154,15 +153,13 @@ export default function Home() {
           <div className={styles.Item}>
             <TitleAccommodations />
             <p className="large">
-              <b>915 Chem. du Mont-des-Cascades</b>
-              <br />
+              915 Chem. du Mont-des-Cascades<br />
               Cantley, QC
             </p>
             <p>
               To book using group discount, call 8195252255 or Book Online.
               Group discount code “ERC”. Group discount extended 3 days
-              post/prior June 3.
-              <br />
+              post/prior June 3. <br />
               <b>Please book accommodations asap to ensure your
                 stay.</b>
             </p>
@@ -181,8 +178,7 @@ export default function Home() {
           <div>
             <h3>Driving</h3>
             <p>
-              The venue is out in the boonies, down winding dirt roads. 
-              <br />
+              The venue is out in the boonies, down winding dirt roads.<br />
               <b>We care about you. Please do not drink & drive.</b>
             </p>
             <a href="https://www.google.com/maps/place/Golf+Mont+Cascades/@45.6078262,-75.8846283,17z/data=!3m1!4b1!4m5!3m4!1s0x4cd1e09dc0727257:0x978b5d9b3efb10ab!8m2!3d45.6078262!4d-75.8846283">Directions</a>
@@ -207,10 +203,9 @@ export default function Home() {
           <p>
             We want you to be comfortable. The venue is outdoors, but if the
             weather is bad there are rain curtains and heaters. Dress
-            accordingly! We’ve put together a lookbook on pinterest if you want
-            some ideas. 
-            <br />
-            We suggest anything light & bright to kick off summer!
+            accordingly! We’ve put together a lookbook on <a href="https://pin.it/1DKSO20">Pinterest</a> if you want
+            some ideas. <br />
+            We strongly suggest something bright & bold to kick off summer! Bright colours and bold patterns encouraged!<br />
             The weather for June 3 in 2022 was 22 during the day and 15 at
             night.
           </p>
