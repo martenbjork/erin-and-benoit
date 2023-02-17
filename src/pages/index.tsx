@@ -104,7 +104,7 @@ export default function Home() {
           />
         </section>
         <div className={styles.RVSPBar}>
-          <a href="#">RVSP now!!!</a>
+          <a href="https://forms.gle/4fmY3QKarCVAuWkS6">RSVP now!!!</a>
         </div>
         <section className={styles.NowAndThen}>
           <div>
