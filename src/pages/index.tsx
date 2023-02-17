@@ -160,8 +160,7 @@ export default function Home() {
               To book using group discount, call 8195252255 or Book Online.
               Group discount code “ERC”. Group discount extended 3 days
               post/prior June 3.
-              <b>Please book accommodations asap to ensure your
-                stay.</b>
+              Please book accommodations asap to ensure your stay.
             </p>
           </div>
         </section>
@@ -179,7 +178,7 @@ export default function Home() {
             <h3>Driving</h3>
             <p>
               The venue is out in the boonies, down winding dirt roads.
-              <b>We care about you. Please do not drink & drive.</b>
+              We care about you. Please do not drink & drive.
             </p>
             <a href="https://www.google.com/maps/place/Golf+Mont+Cascades/@45.6078262,-75.8846283,17z/data=!3m1!4b1!4m5!3m4!1s0x4cd1e09dc0727257:0x978b5d9b3efb10ab!8m2!3d45.6078262!4d-75.8846283">Directions</a>
             
