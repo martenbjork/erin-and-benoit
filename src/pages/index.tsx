@@ -104,7 +104,7 @@ export default function Home() {
           />
         </section>
         <div className={styles.RVSPBar}>
-          <a href="https://forms.gle/4fmY3QKarCVAuWkS6">RSVP now!!!</a>
+          <a href="https://forms.gle/4fmY3QKarCVAuWkS6">RSVP</a>
         </div>
         <section className={styles.NowAndThen}>
           <div>
@@ -133,7 +133,7 @@ export default function Home() {
             <TitleWhen />
             <p className="large">
               June 3rd, 2023. Ceremony 4pm, followed by cocktails. Dinner at
-              6pm, followed by dance party.
+              6pm, followed by dancing.
             </p>
           </div>
 
@@ -172,19 +172,17 @@ export default function Home() {
           <div>
             <h3>Shuttles</h3>
             <p>
-              Shuttles will pick-up at Holiday Inn Gatineau at _ sharp and leave
-              the venue at _ & _. We’ll be making a stop at Casino Lac Leamy for
-              those wishing to continue the party into the wee hours.
+              Shuttles will pick-up at Holiday Inn Gatineau. Please check back here for more info closer to the wedding date!
             </p>
           </div>
 
           <div>
             <h3>Driving</h3>
             <p>
-              The venue is out in the boonies, down winding dirt roads. There
-              will be a service available to bring you & your car home for a
-              fee, if desired. Please, no drinking & driving.
+              The venue is out in the boonies, down winding dirt roads. 
             </p>
+            <a href="https://www.google.com/maps/place/Golf+Mont+Cascades/@45.6078262,-75.8846283,17z/data=!3m1!4b1!4m5!3m4!1s0x4cd1e09dc0727257:0x978b5d9b3efb10ab!8m2!3d45.6078262!4d-75.8846283">Directions</a>
+            
           </div>
 
           <div>
