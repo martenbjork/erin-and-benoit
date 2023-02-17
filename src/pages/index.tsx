@@ -141,7 +141,7 @@ export default function Home() {
             <TitleWhere />
             <p className="large">
               915 Chem. du Mont-des-Cascades
-              <br>
+              <br />
               Cantley, QC
             </p>
             <p>
@@ -155,7 +155,7 @@ export default function Home() {
             <TitleAccommodations />
             <p className="large">
               <b>915 Chem. du Mont-des-Cascades</b>
-              <br>
+              <br />
               Cantley, QC
             </p>
             <p>
@@ -182,7 +182,7 @@ export default function Home() {
             <h3>Driving</h3>
             <p>
               The venue is out in the boonies, down winding dirt roads. 
-              <br>
+              <br />
               <b>We care about you. Please do not drink & drive.</b>
             </p>
             <a href="https://www.google.com/maps/place/Golf+Mont+Cascades/@45.6078262,-75.8846283,17z/data=!3m1!4b1!4m5!3m4!1s0x4cd1e09dc0727257:0x978b5d9b3efb10ab!8m2!3d45.6078262!4d-75.8846283">Directions</a>
@@ -209,7 +209,7 @@ export default function Home() {
             weather is bad there are rain curtains and heaters. Dress
             accordingly! We’ve put together a lookbook on pinterest if you want
             some ideas. 
-            <br>
+            <br />
             We suggest anything light & bright to kick off summer!
             The weather for June 3 in 2022 was 22 during the day and 15 at
             night.
