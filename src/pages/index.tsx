@@ -152,7 +152,7 @@ export default function Home() {
           </div>
 
           <div className={styles.Item}>
-            <TitleAccomodations />
+            <TitleAccommodations />
             <p className="large">
               915 Chem. du Mont-des-Cascades
               Cantley, QC
@@ -166,7 +166,7 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section className={styles.AccomodationDetails}>
+        <section className={styles.AccommodationDetails}>
           <Image src={floral2} alt="" className={styles.Floral} />
 
           <div>
@@ -455,7 +455,7 @@ const TitleFAQ = () => (
   </svg>
 );
 
-const TitleAccomodations = () => (
+const TitleAccommodations = () => (
   <svg
     width="283"
     height="29"
