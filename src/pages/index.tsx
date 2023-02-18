@@ -90,7 +90,7 @@ export default function Home() {
       <main>
         <section className={styles.Hero}>
           <ErinAndBenoitLogo />
-          <p className={styles.Date}>06/03/2023</p>
+          <h2>06/03/2023</h2>
           <p className={styles.JoinUs}>
             Please join us out in the boonies
             to celebrate our love
