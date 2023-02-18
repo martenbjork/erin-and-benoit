@@ -132,7 +132,7 @@ export default function Home() {
           <div className={styles.Item}>
             <TitleWhen />
             <p className="large">
-              June 3rd, 2023. Ceremony 4pm, followed by cocktails. Dinner at
+              June 3rd, 2023. Ceremony at 4pm, followed by cocktails. Dinner at
               6pm, followed by dancing.
             </p>
           </div>
@@ -207,7 +207,8 @@ export default function Home() {
             weather is bad there are rain curtains and heaters. Dress
             accordingly! We’ve put together a lookbook on <a href="https://pin.it/1DKSO20">Pinterest</a> if you want
             some ideas.
-            <br />
+          </p>
+          <p>
             We strongly suggest something bright & bold to kick off summer! Bright colours and bold patterns encouraged!
             The weather for June 3 in 2022 was 22 during the day and 15 at
             night.
@@ -219,12 +220,12 @@ export default function Home() {
           </p>
           <h3>Are kids invited?</h3>
           <p>
-            Unfortunately due to numbers, we cannot accommodate kids unless
+            Unfortunately due to numbers, we cannot accommodate kids unless otherwise
             specified.
           </p>
           <h3>Do I get a +1?</h3>
           <p>
-            Unfortunately due to numbers, we cannot accommodate dates unless
+            Unfortunately due to numbers, we cannot accommodate dates unless otherwise
             specified.
           </p>
           <h3>I don’t want to take the shuttle, options?</h3>
