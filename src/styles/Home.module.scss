@@ -32,7 +32,7 @@
     letter-spacing: 0.1rem;
     background-color: #FEFAF8;
   }
-}
+} 
 
 .Hero {
   display: flex;
@@ -43,6 +43,11 @@
 
   @media screen and (max-width: 1000px) {
     padding: 14vh var(--side-padding) 8vh;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
   }
 
   .HeroContent {
