@@ -154,9 +154,9 @@ export default function Home() {
           <div className={styles.Item}>
             <TitleAccommodations />
             <p className="large">
-              915 Chem. du Mont-des-Cascades
-              Cantley, QC
+             Holiday Inn Gatineau
             </p>
+            <p>7 Bd du Casino, Gatineau, QC</p>
             <p>
               To book using group discount, call 8195252255 or Book Online.
               Group discount code “ERC”. Group discount extended 3 days
