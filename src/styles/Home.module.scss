@@ -30,6 +30,7 @@
     font-size: 0.8rem;
     font-weight: 600;
     letter-spacing: 0.1rem;
+    background-color: white;
   }
 }
 
@@ -151,8 +152,11 @@
   a {
     display: inline-block;
     font-size: 0.8rem;
-    font-weight: 900;
+    font-weight: bold;
     letter-spacing: 0.1rem;
+    border: solid 1px;
+    border-radius: 3px;
+    background-color: white;
   }
 }
 
