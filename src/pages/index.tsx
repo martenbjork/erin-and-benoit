@@ -178,12 +178,14 @@ export default function Home() {
           <div>
             <h3>Driving</h3>
             <p>
-              The venue is out in the boonies, down winding dirt roads.
-              <br />
+              The venue is out in the boonies, down winding dirt roads. Please be careful if you decide to drive yourself!
+            </p>
+            <p>
               <b>We care about you. Please do not drink & drive.</b>
             </p>
-            <a href="https://www.google.com/maps/place/Golf+Mont+Cascades/@45.6078262,-75.8846283,17z/data=!3m1!4b1!4m5!3m4!1s0x4cd1e09dc0727257:0x978b5d9b3efb10ab!8m2!3d45.6078262!4d-75.8846283">Directions</a>
-            
+            <p>
+              <a href="https://www.google.com/maps/place/Golf+Mont+Cascades/@45.6078262,-75.8846283,17z/data=!3m1!4b1!4m5!3m4!1s0x4cd1e09dc0727257:0x978b5d9b3efb10ab!8m2!3d45.6078262!4d-75.8846283">Directions</a>
+            </p>
           </div>
 
           <div>
