@@ -238,6 +238,16 @@ export default function Home() {
             Cascades you will see the clubhouse, and a barn. The parking is
             directly behind the barn!
           </p>
+          <h3>Other hotel suggestions</h3>
+          <p>
+            <a className="links" href="https://www.motelchelsea.com/">Motel Chelsea</a>
+            <a href="https://wakefieldmill.com/">Wakefield Mill</a>
+            <a href="https://wakefieldinn.ca/">Wakefield Inn</a>
+            <a href="https://lebellevue.ca/">Le Bellevue</a>
+          </p>
+          <p>
+            If you decided to look for cottages on Airbnb, we recommend anywhere in Wakefield, Val-Des-Monts, Chelsea, or Gatineau!
+          </p>
         </div>
         <div className={styles.Collage}>
           <ResponsiveMasonry
