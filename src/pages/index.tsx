@@ -91,9 +91,9 @@ export default function Home() {
         <section className={styles.Hero}>
           <ErinAndBenoitLogo />
           <p>06/03/2023</p>
-          <p className={styles.JoinUs}>
+          <h2 className={styles.JoinUs}>
             Please join us out in the boonies to celebrate our love
-          </p>
+          </h2>
           <img
             className={styles.Floral1Animation}
             src="/floral_1_resized.gif"
