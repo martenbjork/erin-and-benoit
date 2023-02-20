@@ -90,10 +90,9 @@ export default function Home() {
       <main>
         <section className={styles.Hero}>
           <ErinAndBenoitLogo />
-          <p className={styles.Date}>06/03/2023</p>
+          <h1>06/03/2023</h1>
           <p className={styles.JoinUs}>
-            Please join us out in the boonies <br />
-            to celebrate our love
+            Please join us out in the boonies to celebrate our love
           </p>
           <img
             className={styles.Floral1Animation}
@@ -104,7 +103,7 @@ export default function Home() {
           />
         </section>
         <div className={styles.RVSPBar}>
-          <a href="#">RVSP now</a>
+          <a href="https://forms.gle/4fmY3QKarCVAuWkS6">RSVP</a>
         </div>
         <section className={styles.NowAndThen}>
           <div>
@@ -132,18 +131,15 @@ export default function Home() {
           <div className={styles.Item}>
             <TitleWhen />
             <p className="large">
-              June 3rd, 2023. Ceremony 4pm, followed by cocktails. Dinner at
-              6pm, followed by dance party.
+              June 3rd, 2023. Ceremony at 4pm, followed by cocktails. Dinner at
+              6pm, followed by dancing.
             </p>
           </div>
 
           <div className={styles.Item}>
             <TitleWhere />
-            <p className="large">
-              915 Chem. du Mont-des-Cascades
-              <br />
-              Cantley, QC
-            </p>
+            <p className="large">Golf Mont Cascades</p>
+            <p>915 Chem. du Mont-des-Cascades, Cantley, QC</p>
             <p>
               Our venue is a covered outdoor patio, however guests may want to
               go out onto the grass for a photos during cocktail hour. Please be
@@ -152,47 +148,50 @@ export default function Home() {
           </div>
 
           <div className={styles.Item}>
-            <TitleAccomodations />
-            <p className="large">
-              915 Chem. du Mont-des-Cascades
-              <br />
-              Cantley, QC
-            </p>
+            <TitleAccommodations />
+            <p className="large">Holiday Inn Gatineau</p>
+            <p>7 Bd du Casino, Gatineau, QC</p>
             <p>
               To book using group discount, call 8195252255 or Book Online.
               Group discount code “ERC”. Group discount extended 3 days
-              post/prior June 3. Please book accommodations asap to ensure your
-              stay.
+              post/prior June 3.
+              <br />
+              <i>Please book accommodations asap to ensure your stay.</i>
             </p>
           </div>
         </section>
-        <section className={styles.AccomodationDetails}>
+        <section className={styles.AccommodationDetails}>
           <Image src={floral2} alt="" className={styles.Floral} />
 
           <div>
             <h3>Shuttles</h3>
             <p>
-              Shuttles will pick-up at Holiday Inn Gatineau at _ sharp and leave
-              the venue at _ & _. We’ll be making a stop at Casino Lac Leamy for
-              those wishing to continue the party into the wee hours.
+              Shuttles will pick-up at Holiday Inn Gatineau. Please check back
+              here for more info closer to the wedding date!
             </p>
           </div>
 
           <div>
             <h3>Driving</h3>
             <p>
-              The venue is out in the boonies, down winding dirt roads. There
-              will be a service available to bring you & your car home for a
-              fee, if desired. Please, no drinking & driving.
+              The venue is out in the boonies, down winding dirt roads. Please
+              be careful if you decide to drive yourself!
+            </p>
+            <p>
+              <b>We care about you. Please do not drink & drive.</b>
+            </p>
+            <p>
+              <a href="https://www.google.com/maps/place/Golf+Mont+Cascades/@45.6078262,-75.8846283,17z/data=!3m1!4b1!4m5!3m4!1s0x4cd1e09dc0727257:0x978b5d9b3efb10ab!8m2!3d45.6078262!4d-75.8846283">
+                Directions
+              </a>
             </p>
           </div>
 
           <div>
             <h3>Parking</h3>
             <p>
-              There is ample parking at the venue, however we will be providing
-              a shuttle from the Holiday Inn Gatineau, for those wishing to
-              partake in the bar.
+              There is ample parking at the venue. When you arrive you will see
+              the clubhouse and a barn. Parking is behind the barn!
             </p>
           </div>
         </section>
@@ -207,10 +206,14 @@ export default function Home() {
           <p>
             We want you to be comfortable. The venue is outdoors, but if the
             weather is bad there are rain curtains and heaters. Dress
-            accordingly! We’ve put together a lookbook on pinterest if you want
-            some ideas. We suggest anything light & bright to kick off summer!
-            The weather for June 3 in 2022 was 22 during the day and 15 at
-            night.
+            accordingly! We’ve put together a lookbook on{" "}
+            <a href="https://pin.it/1DKSO20">Pinterest</a> if you want some
+            ideas.
+          </p>
+          <p>
+            We strongly suggest something bright & bold to kick off summer!
+            Bright colours and bold patterns encouraged! The weather for June 3
+            in 2022 was 22 during the day and 15 at night.
           </p>
           <h3>Gifts?</h3>
           <p>
@@ -220,12 +223,12 @@ export default function Home() {
           <h3>Are kids invited?</h3>
           <p>
             Unfortunately due to numbers, we cannot accommodate kids unless
-            specified.
+            otherwise specified.
           </p>
           <h3>Do I get a +1?</h3>
           <p>
             Unfortunately due to numbers, we cannot accommodate dates unless
-            specified.
+            otherwise specified.
           </p>
           <h3>I don’t want to take the shuttle, options?</h3>
           <p>Taxi, Ride Program</p>
@@ -455,7 +458,7 @@ const TitleFAQ = () => (
   </svg>
 );
 
-const TitleAccomodations = () => (
+const TitleAccommodations = () => (
   <svg
     width="322"
     height="29"
