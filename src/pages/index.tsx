@@ -252,7 +252,7 @@ export default function Home() {
              <a href="https://lebellevue.ca/"><b>Le Bellevue</b></a>
           </p>
           <p>
-            If you decided to look for cottages on Airbnb, we recommend anywhere in Wakefield, Val-Des-Monts, Chelsea, or Gatineau!
+            If you decide to look for cottages on Airbnb, we recommend anywhere in Wakefield, Val-Des-Monts, Chelsea, or Gatineau!
           </p>
         </div>
         <div className={styles.Collage}>
