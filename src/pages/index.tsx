@@ -240,10 +240,14 @@ export default function Home() {
           </p>
           <h3>Other hotel suggestions</h3>
           <p>
-            <a className="links" href="https://www.motelchelsea.com/">Motel Chelsea</a>
-            <a href="https://wakefieldmill.com/">Wakefield Mill</a>
-            <a href="https://wakefieldinn.ca/">Wakefield Inn</a>
-            <a href="https://lebellevue.ca/">Le Bellevue</a>
+            <a href="https://www.motelchelsea.com/"><b>Motel Chelsea</b></a>
+            <br/>
+            <a href="https://wakefieldmill.com/"><b>Wakefield Mill<b/></a>
+            <br/>
+              <a href="https://wakefieldinn.ca/"><b>Wakefield Inn</b></a>
+            <br/>
+              <a href="https://lebellevue.ca/"><b>Le Bellevue</b></a>
+            <br/>
           </p>
           <p>
             If you decided to look for cottages on Airbnb, we recommend anywhere in Wakefield, Val-Des-Monts, Chelsea, or Gatineau!
