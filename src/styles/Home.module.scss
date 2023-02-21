@@ -129,6 +129,12 @@
   gap: 5rem;
   padding: 0 var(--side-padding);
   position: relative;
+  
+  a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #B79897;
+  }
 
   .Item {
     display: flex;
