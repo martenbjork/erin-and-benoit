@@ -162,16 +162,6 @@
     top: -4rem;
     left: calc(100% + 8rem);
   }
-  
-  a {
-    display: inline-block;
-    font-size: 0.8rem;
-    font-weight: bold;
-    letter-spacing: 0.1rem;
-    border: solid 1px;
-    border-radius: 3px;
-    background-color: white;
-  }
 }
 
 .AccommodationDetails {
@@ -184,6 +174,12 @@
 
   @media screen and (max-width: 1000px) {
     flex-direction: column;
+  }
+  
+  a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #B79897;
   }
 
   > div {
