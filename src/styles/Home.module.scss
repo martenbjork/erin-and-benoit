@@ -212,6 +212,11 @@
   max-width: 40rem;
   margin: 0 auto;
   padding: 0 var(--side-padding);
+  
+  a {
+    font-weight: bold;
+    text-decoration: underline;
+  }
 
   svg {
     margin-bottom: 2rem;
