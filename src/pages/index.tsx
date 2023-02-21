@@ -212,7 +212,7 @@ export default function Home() {
           <p>
             We want you to be comfortable. The venue is outdoors, but if the
             weather is bad there are rain curtains and heaters. Dress
-            accordingly! We’ve put together a lookbook on{" "}
+            accordingly! We’ve put together a lookbook on
             <a href="https://pin.it/1DKSO20">Pinterest</a> if you want some
             ideas.
           </p>
@@ -240,9 +240,9 @@ export default function Home() {
           </p>
           <h3>I don’t want to take the shuttle, options?</h3>
           <p>
-            {`The venue is out in the boonies. There are some taxi companies available, 
+            The venue is out in the boonies. There are some taxi companies available, 
             but they are limited. There is also a program called "Tolerance Zero" which can drive you, 
-            & your car back to your accommodations for a fee.}
+            & your car back to your accommodations for a fee.
           </p>
           <h3>Where do I park?</h3>
           <p>
