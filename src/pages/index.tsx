@@ -182,7 +182,7 @@ export default function Home() {
             </p>
             <p>
               <a href="https://www.google.com/maps/place/Golf+Mont+Cascades/@45.6078262,-75.8846283,17z/data=!3m1!4b1!4m5!3m4!1s0x4cd1e09dc0727257:0x978b5d9b3efb10ab!8m2!3d45.6078262!4d-75.8846283">
-                Directions
+                <b>Directions</b>
               </a>
             </p>
           </div>
@@ -238,6 +238,31 @@ export default function Home() {
             Cascades you will see the clubhouse, and a barn. The parking is
             directly behind the barn!
           </p>
+          <h3>Other hotel suggestions:</h3>
+          <p>
+            <a href="https://www.motelchelsea.com/">
+              <b>Motel Chelsea</b>
+            </a>
+          </p>
+          <p>
+            <a href="https://wakefieldmill.com/">
+              <b>Wakefield Mill</b>
+            </a>
+          </p>
+          <p>
+            <a href="https://wakefieldinn.ca/">
+              <b>Wakefield Inn</b>
+            </a>
+          </p>
+          <p>
+            <a href="https://lebellevue.ca/">
+              <b>Le Bellevue</b>
+            </a>
+          </p>
+          <p>
+            If you decide to look for cottages on Airbnb, we recommend anywhere
+            in Wakefield, Val-Des-Monts, Chelsea, or Gatineau!
+          </p>
         </div>
         <div className={styles.Collage}>
           <ResponsiveMasonry
@@ -259,24 +284,6 @@ export default function Home() {
                   height={500 / (image.width / image.height)}
                 />
               ))}
-              {/* {images.selfies.map((image) => (
-                <Image
-                  key={image.src}
-                  {...image}
-                  alt=""
-                  width={500}
-                  height={500 / (image.width / image.height)}
-                />
-              ))}
-              {images.photos.map((image) => (
-                <Image
-                  key={image.src}
-                  {...image}
-                  alt=""
-                  width={image.width / 4}
-                  height={image.height / 4}
-                />
-              ))} */}
             </Masonry>
           </ResponsiveMasonry>
         </div>
