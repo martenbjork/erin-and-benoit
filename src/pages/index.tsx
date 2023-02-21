@@ -218,8 +218,10 @@ export default function Home() {
           </p>
           <p>
             We strongly suggest something bright & bold to kick off summer!
-            Bright colours and bold patterns encouraged! The weather for June 3
-            in 2022 was 22 during the day and 15 at night.
+            Bright colours and bold patterns highly encouraged! Wear something you don't think you'd have the chance to otherwise!
+          </p>
+          <p>
+             The weather for June 3 in 2022 was 22 during the day and 15 at night.
           </p>
           <h3>Gifts?</h3>
           <p>
@@ -238,13 +240,16 @@ export default function Home() {
           </p>
           <h3>I don’t want to take the shuttle, options?</h3>
           <p>
-            {`The venue is out in the boonies. There are some taxi companies available, but they are limited. There is also a program called "Tolerance Zero" which can drive you, & your car back to your accommodations for a fee.`}
+            {`The venue is out in the boonies. There are some taxi companies available, 
+            but they are limited. There is also a program called "Tolerance Zero" which can drive you, 
+            & your car back to your accommodations for a fee.}
           </p>
           <h3>Where do I park?</h3>
           <p>
-            There is ample parking at the venue, once you arrive at Golf Mont
-            Cascades you will see the clubhouse, and a barn. The parking is
-            directly behind the barn!
+            There is ample parking at the venue. Once you arrive at Golf Mont
+            Cascades you will see the clubhouse, and a barn on your left. Follow 
+            the road between the two buildings and you will see the parking lot
+            right behind!
           </p>
           <h3>Other hotel suggestions:</h3>
           <p>
