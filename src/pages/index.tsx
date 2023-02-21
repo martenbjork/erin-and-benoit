@@ -206,10 +206,10 @@ export default function Home() {
           <TitleFAQ />
           <h3>What should I wear?</h3>
           <p>
-            {`We want you to be comfortable. The venue is outdoors, but if the
+            We want you to be comfortable. The venue is outdoors, but if the
             weather is bad there are rain curtains and heaters. Dress
-            accordingly! We’ve put together a lookbook on &nbsp;<a href="https://pin.it/1DKSO20">Pinterest</a> if you want some
-            ideas.`}
+            accordingly! We’ve put together a lookbook on <a href="https://pin.it/1DKSO20">Pinterest</a> if you want some
+            ideas.
           </p>
           <p>
             {`We strongly suggest something bright & bold to kick off summer!
