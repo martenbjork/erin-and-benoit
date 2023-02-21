@@ -155,7 +155,7 @@ export default function Home() {
             <p>7 Bd du Casino, Gatineau, QC</p>
             <p>
               To book using group discount, call 8195252255 or Book Online.
-              Group discount code “ERC”. Group discount extended 3 days
+              Group discount code <b>“ERC”</b>. Group discount extended 3 days
               post/prior June 3.
             </p>
             <p>
