@@ -169,7 +169,7 @@ export default function Home() {
           <div>
             <h3>Shuttles</h3>
             <p>
-              Shuttles will pick-up at Holiday Inn Gatineau. Please check back
+              Shuttles will pick-up & drop off at Holiday Inn Gatineau. Please check back
               here for more info closer to the wedding date!
             </p>
           </div>
