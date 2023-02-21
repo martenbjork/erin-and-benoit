@@ -90,10 +90,10 @@ export default function Home() {
       <main>
         <section className={styles.Hero}>
           <ErinAndBenoitLogo />
-          <p>06/03/2023</p>
-          <h2 className={styles.JoinUs}>
+          <h1>06/03/2023</h1>
+          <p className={styles.JoinUs}>
             Please join us out in the boonies to celebrate our love
-          </h2>
+          </p>
           <img
             className={styles.Floral1Animation}
             src="/floral_1_resized.gif"
