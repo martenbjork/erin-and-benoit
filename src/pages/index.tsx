@@ -208,7 +208,7 @@ export default function Home() {
           <p>
             We want you to be comfortable. The venue is outdoors, but if the
             weather is bad there are rain curtains and heaters. Dress
-            accordingly! We’ve put together a lookbook on
+            accordingly! We’ve put together a lookbook on 
             <a href="https://pin.it/1DKSO20"> Pinterest</a> if you want some
             ideas.
           </p>
