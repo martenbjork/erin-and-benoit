@@ -181,7 +181,10 @@ export default function Home() {
               be careful if you decide to drive yourself!
             </p>
             <p>
-              <b>We care about you. Please do not drink & drive.</b>
+              We care about you. 
+            </p>
+            <p>
+              Please do not drink & drive.
             </p>
             <p>
               <a href="https://www.google.com/maps/place/Golf+Mont+Cascades/@45.6078262,-75.8846283,17z/data=!3m1!4b1!4m5!3m4!1s0x4cd1e09dc0727257:0x978b5d9b3efb10ab!8m2!3d45.6078262!4d-75.8846283">
