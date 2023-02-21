@@ -234,7 +234,7 @@ export default function Home() {
             otherwise specified.
           </p>
           <h3>I don’t want to take the shuttle, options?</h3>
-          <p>Taxi, Ride Program</p>
+          <p>The venue is out in the boonies. There are some taxi companies available, but they are limited. There is also a program called "Tolerance Zero" which can drive you, & your car back to your accommodations for a fee.</p>
           <h3>Where do I park?</h3>
           <p>
             There is ample parking at the venue, once you arrive at Golf Mont
