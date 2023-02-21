@@ -180,12 +180,8 @@ export default function Home() {
               The venue is out in the boonies, down winding dirt roads. Please
               be careful if you decide to drive yourself!
             </p>
-            <p>
-              We care about you. 
-            </p>
-            <p>
-              Please do not drink & drive.
-            </p>
+            <p>We care about you.</p>
+            <p>Please do not drink & drive.</p>
             <p>
               <a href="https://www.google.com/maps/place/Golf+Mont+Cascades/@45.6078262,-75.8846283,17z/data=!3m1!4b1!4m5!3m4!1s0x4cd1e09dc0727257:0x978b5d9b3efb10ab!8m2!3d45.6078262!4d-75.8846283">
                 <b>Directions</b>
@@ -217,11 +213,13 @@ export default function Home() {
             ideas.
           </p>
           <p>
-            We strongly suggest something bright & bold to kick off summer!
-            Bright colours and bold patterns highly encouraged! Wear something you don't think you'd have the chance to otherwise!
+            {`We strongly suggest something bright & bold to kick off summer!
+            Bright colours and bold patterns highly encouraged! Wear something
+            you don't think you'd have the chance to otherwise!`}
           </p>
           <p>
-             The weather for June 3 in 2022 was 22 during the day and 15 at night.
+            The weather for June 3 in 2022 was 22 during the day and 15 at
+            night.
           </p>
           <h3>Gifts?</h3>
           <p>
@@ -230,24 +228,24 @@ export default function Home() {
           </p>
           <h3>Are kids invited?</h3>
           <p>
-            Unfortunately we cannot accommodate kids unless
-            otherwise specified. Please reach out if you have questions!
+            Unfortunately we cannot accommodate kids unless otherwise specified.
+            Please reach out if you have questions!
           </p>
           <h3>Do I get a +1?</h3>
           <p>
-            Unfortunately we cannot accommodate dates unless
-            otherwise specified. Please reach out if you have questions! 
+            Unfortunately we cannot accommodate dates unless otherwise
+            specified. Please reach out if you have questions!
           </p>
           <h3>I don’t want to take the shuttle, options?</h3>
           <p>
-            The venue is out in the boonies. There are some taxi companies available, 
+            {`The venue is out in the boonies. There are some taxi companies available, 
             but they are limited. There is also a program called "Tolerance Zero" which can drive you, 
-            & your car back to your accommodations for a fee.
+            & your car back to your accommodations for a fee.`}
           </p>
           <h3>Where do I park?</h3>
           <p>
             There is ample parking at the venue. Once you arrive at Golf Mont
-            Cascades you will see the clubhouse, and a barn on your left. Follow 
+            Cascades you will see the clubhouse, and a barn on your left. Follow
             the road between the two buildings and you will see the parking lot
             right behind!
           </p>
