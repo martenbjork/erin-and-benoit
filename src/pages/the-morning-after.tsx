@@ -9,7 +9,7 @@ export default function TheMorningAfter() {
 
       <p>
         Thanks so much for travelling to our wedding! We hope you can join us
-        for a cup of coffee, and some pastries.
+        for a cup of coffee, and some pastries before you go!
       </p>
 
       <p>9-11am</p>
