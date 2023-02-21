@@ -228,13 +228,13 @@ export default function Home() {
           </p>
           <h3>Are kids invited?</h3>
           <p>
-            Unfortunately due to numbers, we cannot accommodate kids unless
-            otherwise specified.
+            Unfortunately we cannot accommodate kids unless
+            otherwise specified. Please reach out if you have questions!
           </p>
           <h3>Do I get a +1?</h3>
           <p>
-            Unfortunately due to numbers, we cannot accommodate dates unless
-            otherwise specified.
+            Unfortunately we cannot accommodate dates unless
+            otherwise specified. Please reach out if you have questions! 
           </p>
           <h3>I don’t want to take the shuttle, options?</h3>
           <p>
