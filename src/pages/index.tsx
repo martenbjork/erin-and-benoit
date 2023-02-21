@@ -240,19 +240,28 @@ export default function Home() {
           </p>
           <h3>Other hotel suggestions:</h3>
           <p>
-            <a href="https://www.motelchelsea.com/"><b>Motel Chelsea</b></a>
+            <a href="https://www.motelchelsea.com/">
+              <b>Motel Chelsea</b>
+            </a>
           </p>
           <p>
-            <a href="https://wakefieldmill.com/"><b>Wakefield Mill<b/></a>
+            <a href="https://wakefieldmill.com/">
+              <b>Wakefield Mill</b>
+            </a>
           </p>
           <p>
-            <a href="https://wakefieldinn.ca/"><b>Wakefield Inn</b></a>
+            <a href="https://wakefieldinn.ca/">
+              <b>Wakefield Inn</b>
+            </a>
           </p>
           <p>
-             <a href="https://lebellevue.ca/"><b>Le Bellevue</b></a>
+            <a href="https://lebellevue.ca/">
+              <b>Le Bellevue</b>
+            </a>
           </p>
           <p>
-            If you decide to look for cottages on Airbnb, we recommend anywhere in Wakefield, Val-Des-Monts, Chelsea, or Gatineau!
+            If you decide to look for cottages on Airbnb, we recommend anywhere
+            in Wakefield, Val-Des-Monts, Chelsea, or Gatineau!
           </p>
         </div>
         <div className={styles.Collage}>
@@ -275,24 +284,6 @@ export default function Home() {
                   height={500 / (image.width / image.height)}
                 />
               ))}
-              {/* {images.selfies.map((image) => (
-                <Image
-                  key={image.src}
-                  {...image}
-                  alt=""
-                  width={500}
-                  height={500 / (image.width / image.height)}
-                />
-              ))}
-              {images.photos.map((image) => (
-                <Image
-                  key={image.src}
-                  {...image}
-                  alt=""
-                  width={image.width / 4}
-                  height={image.height / 4}
-                />
-              ))} */}
             </Masonry>
           </ResponsiveMasonry>
         </div>
