@@ -155,7 +155,8 @@ export default function Home() {
               To book using group discount, call 8195252255 or Book Online.
               Group discount code “ERC”. Group discount extended 3 days
               post/prior June 3.
-              <br />
+            </p>
+            <p>
               <i>Please book accommodations asap to ensure your stay.</i>
             </p>
           </div>
