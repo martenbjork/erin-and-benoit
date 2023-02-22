@@ -155,7 +155,7 @@ export default function Home() {
             <p>7 Bd du Casino, Gatineau, QC</p>
             <p>
               To book using group discount, call 8195252255 or <a href="https://www.ihg.com/holidayinn/hotels/us/en/gatineau/yowgn/hoteldetail?fromRedirect=true&qSrt=sBR&qSlH=YOWGN&setPMCookies=true&qSHBrC=HI&qDest=7+boulevard+du+Casino%2C+Gatineau%2C+CA&srb_u=1">Book Online.</a>
-              Group discount code “ERC”. Group discount extended 3 days
+              <br />Group discount code “ERC”. Group discount extended 3 days
               post/prior June 3.
             </p>
             <p>
