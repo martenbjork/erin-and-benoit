@@ -8,11 +8,11 @@ export default function TheMorningAfter() {
       <Image src={theMorningAfter} alt="The Morning After" />
 
       <p>
-        Thanks so much for travelling to our wedding! We hope you can join us
+        Thanks so much for travelling to our wedding. We hope you can join us
         for a cup of coffee, and some pastries before you go!
       </p>
 
-      <p>9-11am</p>
+      <h1>9-11am</h1>
 
       <p>
         Holiday Inn Gatineau
