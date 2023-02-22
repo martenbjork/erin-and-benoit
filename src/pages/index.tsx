@@ -154,7 +154,8 @@ export default function Home() {
             <p className="large">Holiday Inn Gatineau</p>
             <p>7 Bd du Casino, Gatineau, QC</p>
             <p>
-              To book using group discount, call 8195252255 or Book Online.
+              To book using group discount, call 8195252255 or <a href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=YOWGN
+                &_PMID=99801505&GPC=NOW&cn=no&viewfullsite=true">Book Online.</a>
               Group discount code “ERC”. Group discount extended 3 days
               post/prior June 3.
             </p>
