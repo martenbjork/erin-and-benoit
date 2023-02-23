@@ -32,7 +32,7 @@ export default function TheMorningAfter() {
     <p>
       Follow signs for Erin & Benoit
     </p>
-    
+</div>
 
   );
 }
