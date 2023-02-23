@@ -141,7 +141,11 @@ export default function Home() {
           <div className={styles.Item}>
             <TitleWhere />
             <p className="large">Golf Mont Cascades</p>
-            <p>915 Chem. du Mont-des-Cascades, Cantley, QC</p>
+            <p>
+              915 Chem. du Mont-des-Cascades 
+            </p>
+            <p>
+              Cantley, QC</p>
             <p>
               Our venue is a covered outdoor patio, however guests may want to
               go out onto the grass for a photos during cocktail hour. Please be
@@ -155,7 +159,9 @@ export default function Home() {
             <p>7 Bd du Casino, Gatineau, QC</p>
             <p>
               To book using group discount, call 8195252255 or <a href="https://www.ihg.com/holidayinn/hotels/us/en/gatineau/yowgn/hoteldetail?fromRedirect=true&qSrt=sBR&qSlH=YOWGN&setPMCookies=true&qSHBrC=HI&qDest=7+boulevard+du+Casino%2C+Gatineau%2C+CA&srb_u=1">Book Online.</a>
-              <br />Group discount code “ERC”. Group discount extended 3 days
+            </p>
+            <p>
+              Group discount code <b>"ERC"</b>. Group discount extended 3 days
               post/prior June 3.
             </p>
             <p>
