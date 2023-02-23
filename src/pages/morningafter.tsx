@@ -26,7 +26,7 @@ export default function TheMorningAfter() {
     </p>
 
     <p>
-      <a href="https://forms.gle/7Uo9Rw1iEhwLGbfw7">RVSP</a>
+      <a href="https://forms.gle/7Uo9Rw1iEhwLGbfw7">RSVP</a>
     </p>
 
     <p>
