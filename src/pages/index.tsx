@@ -141,10 +141,7 @@ export default function Home() {
           <div className={styles.Item}>
             <TitleWhere />
             <p className="large">Golf Mont Cascades</p>
-            <p className="large">
-              915 Chem. du Mont-des-Cascades 
-              Cantley, QC
-            </p>
+            <p className="large">915 Chem. du Mont-des-Cascades Cantley, QC</p>
             <p>
               Our venue is a covered outdoor patio, however guests may want to
               go out onto the grass for a photos during cocktail hour. Please be
@@ -157,7 +154,10 @@ export default function Home() {
             <p className="large">Holiday Inn Gatineau</p>
             <p>7 Bd du Casino, Gatineau, QC</p>
             <p>
-              To book using group discount, call 8195252255 or <a href="https://www.ihg.com/holidayinn/hotels/us/en/gatineau/yowgn/hoteldetail?fromRedirect=true&qSrt=sBR&qSlH=YOWGN&setPMCookies=true&qSHBrC=HI&qDest=7+boulevard+du+Casino%2C+Gatineau%2C+CA&srb_u=1">Book Online.</a>
+              To book using group discount, call 8195252255 or{" "}
+              <a href="https://www.ihg.com/holidayinn/hotels/us/en/gatineau/yowgn/hoteldetail?fromRedirect=true&qSrt=sBR&qSlH=YOWGN&setPMCookies=true&qSHBrC=HI&qDest=7+boulevard+du+Casino%2C+Gatineau%2C+CA&srb_u=1">
+                Book Online.
+              </a>
             </p>
             <p>
               {`Group discount code "ERC". Group discount extended 3 days
@@ -213,7 +213,8 @@ export default function Home() {
           <p>
             We want you to be comfortable. The venue is outdoors, but if the
             weather is bad there are rain curtains and heaters. Dress
-            accordingly! We’ve put together a lookbook on <a href="https://pin.it/1DKSO20">Pinterest</a> if you want some
+            accordingly! We’ve put together a lookbook on{" "}
+            <a href="https://pin.it/1DKSO20">Pinterest</a> if you want some
             ideas.
           </p>
           <p>
