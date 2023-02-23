@@ -18,9 +18,9 @@ export default function TheMorningAfter() {
 
     <h1>9-11am</h1>
 
-    <p className="large">
+    <h1>
       Holiday Inn Gatineau
-    </p>
+    </h1>
     <p>
       7 Bd du Casino, Gatineau, QC
     </p>
