@@ -24,10 +24,10 @@ export default function TheMorningAfter() {
     <p>
       7 Bd du Casino, Gatineau, QC
     </p>
-    <div class="rsvp">
+    <div>
       <p>
         <a href="https://forms.gle/7Uo9Rw1iEhwLGbfw7">RSVP</a>
-     </p>
+      </p>
     </div>
     <p>
       Follow signs for Erin & Benoit
