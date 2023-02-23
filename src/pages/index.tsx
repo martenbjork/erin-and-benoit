@@ -141,10 +141,10 @@ export default function Home() {
           <div className={styles.Item}>
             <TitleWhere />
             <p className="large">Golf Mont Cascades</p>
-            <p>
+            <p className="large">
               915 Chem. du Mont-des-Cascades 
-              <br />
-              Cantley, QC</p>
+              Cantley, QC
+            </p>
             <p>
               Our venue is a covered outdoor patio, however guests may want to
               go out onto the grass for a photos during cocktail hour. Please be
