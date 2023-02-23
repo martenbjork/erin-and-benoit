@@ -143,8 +143,7 @@ export default function Home() {
             <p className="large">Golf Mont Cascades</p>
             <p>
               915 Chem. du Mont-des-Cascades 
-            </p>
-            <p>
+              <br />
               Cantley, QC</p>
             <p>
               Our venue is a covered outdoor patio, however guests may want to
