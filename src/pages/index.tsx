@@ -160,7 +160,7 @@ export default function Home() {
               </a>
             </p>
             <p>
-              {`Group discount code "ERC". Group discount extended 3 days
+              {`Group discount code "ERC". If you are calling, they may mention "Elmridge", this is the correct group. The group discount extended 3 days
               post/prior June 3.`}
             </p>
             <p>
