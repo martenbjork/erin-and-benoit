@@ -144,7 +144,7 @@ export default function Home() {
             <p className="large">915 Chem. du Mont-des-Cascades Cantley, QC</p>
             <p>
               Our venue is a covered outdoor patio, however guests may want to
-              go out onto the grass for a photos during cocktail hour. Please be
+              go out onto the grass for photos during cocktail hour. Please be
               aware of your shoes!
             </p>
           </div>
@@ -160,7 +160,7 @@ export default function Home() {
               </a>
             </p>
             <p>
-              {`Group discount code "ERC". Group discount extended 3 days
+              {`Group discount code "ERC". If you are calling, they may mention "Elmridge". This is the correct group. The group discount extended 3 days
               post/prior June 3.`}
             </p>
             <p>
