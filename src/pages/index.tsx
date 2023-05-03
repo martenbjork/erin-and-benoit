@@ -133,8 +133,8 @@ export default function Home() {
           <div className={styles.Item}>
             <TitleWhen />
             <p className="large">
-              June 3rd, 2023. Ceremony at 4pm, followed by cocktails. Dinner at
-              6pm, followed by dancing.
+              June 3rd, 2023. Ceremony at 5pm, followed by cocktails. Dinner at
+              7pm, followed by dancing.
             </p>
           </div>
 
@@ -174,8 +174,7 @@ export default function Home() {
           <div>
             <h3>Shuttles</h3>
             <p>
-              Shuttles will pick-up & drop off at Holiday Inn Gatineau. Please
-              check back here for more info closer to the wedding date!
+              Shuttles will pick-up & drop off at Holiday Inn Gatineau at <b>4PM SHARP!</b>
             </p>
           </div>
 
