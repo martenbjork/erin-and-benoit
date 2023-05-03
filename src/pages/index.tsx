@@ -174,7 +174,10 @@ export default function Home() {
           <div>
             <h3>Shuttles</h3>
             <p>
-              Shuttles will pick-up & drop off at Holiday Inn Gatineau at <b>4PM SHARP!</b>
+              Shuttles will pick-up at Holiday Inn Gatineau at <b>4PM SHARP!</b> 
+            </p>
+            <p>
+              Shuttles will leave the venue at 11PM & 1AM and drop off at Holiday Inn Gatineau. Shuttle at 1AM will also make a stop at Motel Chelsea.
             </p>
           </div>
 
