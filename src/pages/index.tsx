@@ -177,7 +177,7 @@ export default function Home() {
               Shuttles will pick-up at Holiday Inn Gatineau at <b>4PM SHARP!</b> 
             </p>
             <p>
-              Shuttles will leave the venue at 11PM & 1AM and drop off at Holiday Inn Gatineau. Shuttle at 1AM will also make a stop at Motel Chelsea.
+              Shuttles will leave the venue at 11PM & 1230AM and drop off at Holiday Inn Gatineau. Shuttle at 1230 will also make a stop at Motel Chelsea.
             </p>
           </div>
 
