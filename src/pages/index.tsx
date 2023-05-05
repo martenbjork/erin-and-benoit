@@ -1,19 +1,19 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.scss";
-import photo1 from "./photos/colour/Erin-and-Benoit-October-10th-2022-5 copy.jpg";
-import photo2 from "./photos/colour/Erin-and-Benoit-October-10th-2022-10 copy.jpg";
-import photo3 from "./photos/colour/Erin-and-Benoit-October-10th-2022-14 copy.jpg";
-import photo4 from "./photos/colour/Erin-and-Benoit-October-10th-2022-15 copy.jpg";
-import photo5 from "./photos/colour/Erin-and-Benoit-October-10th-2022-17 copy.jpg";
-import photo6 from "./photos/colour/Erin-and-Benoit-October-10th-2022-22 copy.jpg";
-import photo7 from "./photos/colour/Erin-and-Benoit-October-10th-2022-24 copy.jpg";
-import photo8 from "./photos/colour/Erin-and-Benoit-October-10th-2022-29 copy.jpg";
-import photo9 from "./photos/colour/Erin-and-Benoit-October-10th-2022-32 copy.jpg";
-import photo10 from "./photos/colour/Erin-and-Benoit-October-10th-2022-33 copy.jpg";
-import photo11 from "./photos/colour/Erin-and-Benoit-October-10th-2022-34 copy.jpg";
-import photo12 from "./photos/colour/Erin-and-Benoit-October-10th-2022-36 copy.jpg";
-import photo13 from "./photos/colour/Erin-and-Benoit-October-10th-2022-38 copy.jpg";
+import photo1 from "./photos/colour/Erin-and-Benoit-October-10th-2022-5.jpg";
+import photo2 from "./photos/colour/Erin-and-Benoit-October-10th-2022-10.jpg";
+import photo3 from "./photos/colour/Erin-and-Benoit-October-10th-2022-14.jpg";
+import photo4 from "./photos/colour/Erin-and-Benoit-October-10th-2022-15.jpg";
+import photo5 from "./photos/colour/Erin-and-Benoit-October-10th-2022-17.jpg";
+import photo6 from "./photos/colour/Erin-and-Benoit-October-10th-2022-22.jpg";
+import photo7 from "./photos/colour/Erin-and-Benoit-October-10th-2022-24.jpg";
+import photo8 from "./photos/colour/Erin-and-Benoit-October-10th-2022-29.jpg";
+import photo9 from "./photos/colour/Erin-and-Benoit-October-10th-2022-32.jpg";
+import photo10 from "./photos/colour/Erin-and-Benoit-October-10th-2022-33.jpg";
+import photo11 from "./photos/colour/Erin-and-Benoit-October-10th-2022-34.jpg";
+import photo12 from "./photos/colour/Erin-and-Benoit-October-10th-2022-36.jpg";
+import photo13 from "./photos/colour/Erin-and-Benoit-October-10th-2022-38.jpg";
 import selfie1 from "./photos/1393660_10151956705209044_1500732883_n.jpeg";
 import selfie2 from "./photos/1545102_10152126381159044_1383338928_n.jpeg";
 import selfie3 from "./photos/1556317_10152207639034044_947552684_o.jpeg";
@@ -90,7 +90,9 @@ export default function Home() {
       <main>
         <section className={styles.Hero}>
           <ErinAndBenoitLogo />
-          <h1>06/03/2023</h1>
+          <p>
+            <b>06/03/2023</b>
+          </p>
           <p className={styles.JoinUs}>
             Please join us out in the boonies to celebrate our love
           </p>
@@ -131,18 +133,18 @@ export default function Home() {
           <div className={styles.Item}>
             <TitleWhen />
             <p className="large">
-              June 3rd, 2023. Ceremony at 4pm, followed by cocktails. Dinner at
-              6pm, followed by dancing.
+              June 3rd, 2023. Ceremony at 5pm, followed by cocktails. Dinner at
+              7pm, followed by dancing.
             </p>
           </div>
 
           <div className={styles.Item}>
             <TitleWhere />
             <p className="large">Golf Mont Cascades</p>
-            <p>915 Chem. du Mont-des-Cascades, Cantley, QC</p>
+            <p className="large">915 Chem. du Mont-des-Cascades Cantley, QC</p>
             <p>
               Our venue is a covered outdoor patio, however guests may want to
-              go out onto the grass for a photos during cocktail hour. Please be
+              go out onto the grass for photos during cocktail hour. Please be
               aware of your shoes!
             </p>
           </div>
@@ -152,10 +154,16 @@ export default function Home() {
             <p className="large">Holiday Inn Gatineau</p>
             <p>7 Bd du Casino, Gatineau, QC</p>
             <p>
-              To book using group discount, call 8195252255 or Book Online.
-              Group discount code “ERC”. Group discount extended 3 days
-              post/prior June 3.
-              <br />
+              To book using group discount, call 8195252255 or{" "}
+              <a href="https://www.ihg.com/holidayinn/hotels/us/en/gatineau/yowgn/hoteldetail?fromRedirect=true&qSrt=sBR&qSlH=YOWGN&setPMCookies=true&qSHBrC=HI&qDest=7+boulevard+du+Casino%2C+Gatineau%2C+CA&srb_u=1">
+                Book Online.
+              </a>
+            </p>
+            <p>
+              {`Group discount code "ERC". If you are calling, they may mention "Elmridge". This is the correct group. The group discount extended 3 days
+              post/prior June 3.`}
+            </p>
+            <p>
               <i>Please book accommodations asap to ensure your stay.</i>
             </p>
           </div>
@@ -166,8 +174,10 @@ export default function Home() {
           <div>
             <h3>Shuttles</h3>
             <p>
-              Shuttles will pick-up at Holiday Inn Gatineau. Please check back
-              here for more info closer to the wedding date!
+              Shuttles will pick-up at Holiday Inn Gatineau at <b>4PM SHARP!</b> 
+            </p>
+            <p>
+              Shuttles will leave the venue at 11PM & 1230AM and drop off at Holiday Inn Gatineau. Shuttle at 1230 will also make a stop at Motel Chelsea.
             </p>
           </div>
 
@@ -177,12 +187,11 @@ export default function Home() {
               The venue is out in the boonies, down winding dirt roads. Please
               be careful if you decide to drive yourself!
             </p>
-            <p>
-              <b>We care about you. Please do not drink & drive.</b>
-            </p>
+            <p>We care about you.</p>
+            <p>Please do not drink & drive.</p>
             <p>
               <a href="https://www.google.com/maps/place/Golf+Mont+Cascades/@45.6078262,-75.8846283,17z/data=!3m1!4b1!4m5!3m4!1s0x4cd1e09dc0727257:0x978b5d9b3efb10ab!8m2!3d45.6078262!4d-75.8846283">
-                Directions
+                <b>Directions</b>
               </a>
             </p>
           </div>
@@ -211,9 +220,13 @@ export default function Home() {
             ideas.
           </p>
           <p>
-            We strongly suggest something bright & bold to kick off summer!
-            Bright colours and bold patterns encouraged! The weather for June 3
-            in 2022 was 22 during the day and 15 at night.
+            {`We strongly suggest something bright & bold to kick off summer!
+            Bright colours and bold patterns highly encouraged! Wear something
+            you don't think you'd have the chance to otherwise!`}
+          </p>
+          <p>
+            The weather for June 3 in 2022 was 22 during the day and 15 at
+            night.
           </p>
           <h3>Gifts?</h3>
           <p>
@@ -222,21 +235,51 @@ export default function Home() {
           </p>
           <h3>Are kids invited?</h3>
           <p>
-            Unfortunately due to numbers, we cannot accommodate kids unless
-            otherwise specified.
+            Unfortunately we cannot accommodate kids unless otherwise specified.
+            Please reach out if you have questions!
           </p>
           <h3>Do I get a +1?</h3>
           <p>
-            Unfortunately due to numbers, we cannot accommodate dates unless
-            otherwise specified.
+            Unfortunately we cannot accommodate dates unless otherwise
+            specified. Please reach out if you have questions!
           </p>
           <h3>I don’t want to take the shuttle, options?</h3>
-          <p>Taxi, Ride Program</p>
+          <p>
+            {`The venue is out in the boonies. There are some taxi companies available, 
+            but they are limited. There is also a program called "Tolerance Zero" which can drive you, 
+            & your car back to your accommodations for a fee.`}
+          </p>
           <h3>Where do I park?</h3>
           <p>
-            There is ample parking at the venue, once you arrive at Golf Mont
-            Cascades you will see the clubhouse, and a barn. The parking is
-            directly behind the barn!
+            There is ample parking at the venue. Once you arrive at Golf Mont
+            Cascades you will see the clubhouse, and a barn on your left. Follow
+            the road between the two buildings and you will see the parking lot
+            right behind!
+          </p>
+          <h3>Other hotel suggestions:</h3>
+          <p>
+            <a href="https://www.motelchelsea.com/">
+              <b>Motel Chelsea</b>
+            </a>
+          </p>
+          <p>
+            <a href="https://wakefieldmill.com/">
+              <b>Wakefield Mill</b>
+            </a>
+          </p>
+          <p>
+            <a href="https://wakefieldinn.ca/">
+              <b>Wakefield Inn</b>
+            </a>
+          </p>
+          <p>
+            <a href="https://lebellevue.ca/">
+              <b>Le Bellevue</b>
+            </a>
+          </p>
+          <p>
+            If you decide to look for cottages on Airbnb, we recommend anywhere
+            in Wakefield, Val-Des-Monts, Chelsea, or Gatineau!
           </p>
         </div>
         <div className={styles.Collage}>
@@ -259,24 +302,6 @@ export default function Home() {
                   height={500 / (image.width / image.height)}
                 />
               ))}
-              {/* {images.selfies.map((image) => (
-                <Image
-                  key={image.src}
-                  {...image}
-                  alt=""
-                  width={500}
-                  height={500 / (image.width / image.height)}
-                />
-              ))}
-              {images.photos.map((image) => (
-                <Image
-                  key={image.src}
-                  {...image}
-                  alt=""
-                  width={image.width / 4}
-                  height={image.height / 4}
-                />
-              ))} */}
             </Masonry>
           </ResponsiveMasonry>
         </div>
